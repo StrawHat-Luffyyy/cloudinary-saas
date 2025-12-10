@@ -1,9 +1,4 @@
-import React from 'react'
+'use client'
 
-function Home() {
-  return (
-    <div>Home</div>
-  )
-}
-
-export default Home
+import { useState , useEffect , useRef } from "react"
+import { CldImage } from 'next-cloudinary';
